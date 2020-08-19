@@ -37,7 +37,7 @@ RUN bash ./tmp/nginx_and_ssl.sh
 #RUN echo "ssl_certificate /etc/nginx/ssl/certs/localhost.crt;" >> /etc/nginx/snippets/self-signed.conf
 #RUN echo "ssl_certificate_key /etc/nginx/ssl/private/localhost.key;" >> /etc/nginx/snippets/self-signed.conf
 
-#NGINX CONFIGURATION
+#NGINX CONFIGURATIO
 #RUN cp ./tmp/nginx-conf /etc/nginx/sites-available/localhost
 #RUN ln -s /etc/nginx/sites-available/localhost /etc/nginx/sites-enabled/localhost
 #RUN rm /etc/nginx/sites-enabled/default
