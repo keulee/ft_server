@@ -3,8 +3,7 @@ chown -R www-data:www-data /var/www/*
 chmod -R 755 /var/www/*
 
 #SERVICES START WITH CHANGES
-service nginx reload
-service nginx restart
+service nginx start
 service php7.3-fpm start
 service mysql restart
 
